@@ -145,11 +145,17 @@ nav ul li {
     background:      -o-linear-gradient(top,  #fff,  #efefef);
 }
 .box h3 {
-    font-size: 1.35em;
+    font-size: 10px;
+    vertical-align: top;
+    text-decoration: none;
+    color: #999;
+    padding: 10px 0;
+}
+h3 span {
+    font-size: 1.75em;
     font-weight: bold;
     color: #369;
     text-decoration: underline;
-    padding: 5px 0;
 }
 .box h4 {
     font-size: 0.9em;
@@ -163,10 +169,3 @@ nav ul li {
     line-height: 1.4em;
     color: #000;
 }
-span.registered, .trademark {
-    font-size: 10px;
-    vertical-align: super;
-    text-decoration: none;
-    color: #999;
-}
-
